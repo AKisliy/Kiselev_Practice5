@@ -32,6 +32,5 @@ class CSViewController: UIViewController, DisplayLogic {
     
     func displayStart() {
         router.goToStart()
-        print("hello")
     }
 }
