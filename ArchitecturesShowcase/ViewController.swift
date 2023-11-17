@@ -8,12 +8,10 @@
 import UIKit
 
 class ViewController: UIViewController {
+    weak var object: NSObject?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
 }
 

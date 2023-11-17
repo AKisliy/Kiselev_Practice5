@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A55679FD2B07DDFB00A91115 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55679FC2B07DDFB00A91115 /* Router.swift */; };
 		A5649DFD2B07B80400B39819 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5649DFC2B07B80400B39819 /* AppDelegate.swift */; };
 		A5649DFF2B07B80400B39819 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5649DFE2B07B80400B39819 /* SceneDelegate.swift */; };
 		A5649E012B07B80400B39819 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5649E002B07B80400B39819 /* ViewController.swift */; };
 		A5649E042B07B80400B39819 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5649E022B07B80400B39819 /* Main.storyboard */; };
 		A5649E062B07B80500B39819 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5649E052B07B80500B39819 /* Assets.xcassets */; };
 		A5649E092B07B80500B39819 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5649E072B07B80500B39819 /* LaunchScreen.storyboard */; };
+		A5649E142B07D61E00B39819 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5649E132B07D61E00B39819 /* Model.swift */; };
+		A5649E162B07D62E00B39819 /* MVCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5649E152B07D62E00B39819 /* MVCView.swift */; };
+		A5649E182B07D63E00B39819 /* MVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5649E172B07D63E00B39819 /* MVCViewController.swift */; };
+		A5649E1A2B07D7AB00B39819 /* MVVMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5649E192B07D7AB00B39819 /* MVVMViewController.swift */; };
+		A5649E1C2B07D7C100B39819 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5649E1B2B07D7C100B39819 /* Model.swift */; };
+		A5649E1E2B07D7FF00B39819 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5649E1D2B07D7FF00B39819 /* ViewModel.swift */; };
+		A5649E202B07DA8500B39819 /* CSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5649E1F2B07DA8500B39819 /* CSViewController.swift */; };
+		A5649E222B07DAD500B39819 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5649E212B07DAD500B39819 /* Interactor.swift */; };
+		A5649E242B07DB5100B39819 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5649E232B07DB5100B39819 /* Presenter.swift */; };
+		A5649E262B07DCB900B39819 /* Assembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5649E252B07DCB900B39819 /* Assembly.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A55679FC2B07DDFB00A91115 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		A5649DF92B07B80400B39819 /* ArchitecturesShowcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArchitecturesShowcase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5649DFC2B07B80400B39819 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5649DFE2B07B80400B39819 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +36,16 @@
 		A5649E052B07B80500B39819 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5649E082B07B80500B39819 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5649E0A2B07B80500B39819 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5649E132B07D61E00B39819 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		A5649E152B07D62E00B39819 /* MVCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVCView.swift; sourceTree = "<group>"; };
+		A5649E172B07D63E00B39819 /* MVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVCViewController.swift; sourceTree = "<group>"; };
+		A5649E192B07D7AB00B39819 /* MVVMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMViewController.swift; sourceTree = "<group>"; };
+		A5649E1B2B07D7C100B39819 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		A5649E1D2B07D7FF00B39819 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		A5649E1F2B07DA8500B39819 /* CSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSViewController.swift; sourceTree = "<group>"; };
+		A5649E212B07DAD500B39819 /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		A5649E232B07DB5100B39819 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		A5649E252B07DCB900B39819 /* Assembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assembly.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +81,47 @@
 				A5649DFC2B07B80400B39819 /* AppDelegate.swift */,
 				A5649DFE2B07B80400B39819 /* SceneDelegate.swift */,
 				A5649E002B07B80400B39819 /* ViewController.swift */,
+				A5649E122B07D60F00B39819 /* CleanSwift */,
+				A5649E112B07D60800B39819 /* MVVM */,
+				A5649E102B07D5F900B39819 /* MVC */,
 				A5649E022B07B80400B39819 /* Main.storyboard */,
 				A5649E052B07B80500B39819 /* Assets.xcassets */,
 				A5649E072B07B80500B39819 /* LaunchScreen.storyboard */,
 				A5649E0A2B07B80500B39819 /* Info.plist */,
 			);
 			path = ArchitecturesShowcase;
+			sourceTree = "<group>";
+		};
+		A5649E102B07D5F900B39819 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				A5649E132B07D61E00B39819 /* Model.swift */,
+				A5649E152B07D62E00B39819 /* MVCView.swift */,
+				A5649E172B07D63E00B39819 /* MVCViewController.swift */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		A5649E112B07D60800B39819 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				A5649E192B07D7AB00B39819 /* MVVMViewController.swift */,
+				A5649E1B2B07D7C100B39819 /* Model.swift */,
+				A5649E1D2B07D7FF00B39819 /* ViewModel.swift */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		A5649E122B07D60F00B39819 /* CleanSwift */ = {
+			isa = PBXGroup;
+			children = (
+				A5649E1F2B07DA8500B39819 /* CSViewController.swift */,
+				A5649E212B07DAD500B39819 /* Interactor.swift */,
+				A5649E232B07DB5100B39819 /* Presenter.swift */,
+				A5649E252B07DCB900B39819 /* Assembly.swift */,
+				A55679FC2B07DDFB00A91115 /* Router.swift */,
+			);
+			path = CleanSwift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +195,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5649E222B07DAD500B39819 /* Interactor.swift in Sources */,
 				A5649E012B07B80400B39819 /* ViewController.swift in Sources */,
+				A5649E1E2B07D7FF00B39819 /* ViewModel.swift in Sources */,
+				A5649E182B07D63E00B39819 /* MVCViewController.swift in Sources */,
+				A5649E162B07D62E00B39819 /* MVCView.swift in Sources */,
+				A5649E202B07DA8500B39819 /* CSViewController.swift in Sources */,
+				A5649E242B07DB5100B39819 /* Presenter.swift in Sources */,
 				A5649DFD2B07B80400B39819 /* AppDelegate.swift in Sources */,
+				A5649E262B07DCB900B39819 /* Assembly.swift in Sources */,
 				A5649DFF2B07B80400B39819 /* SceneDelegate.swift in Sources */,
+				A55679FD2B07DDFB00A91115 /* Router.swift in Sources */,
+				A5649E142B07D61E00B39819 /* Model.swift in Sources */,
+				A5649E1A2B07D7AB00B39819 /* MVVMViewController.swift in Sources */,
+				A5649E1C2B07D7C100B39819 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
